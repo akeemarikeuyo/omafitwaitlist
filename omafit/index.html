@@ -8,9 +8,10 @@
       name="description"
       content="omaFIT is a free, open-source app that helps you fix your posture, build muscle and keep a healthy physique with home workouts that fit around your desk job. Join the waitlist."
     />
-    <meta name="theme-color" content="#0F1115" />
+    <meta name="theme-color" content="#12100d" />
     <link rel="canonical" href="https://akanniola.com/omafit" />
     <link rel="icon" type="image/png" href="/omafit/favicon.png" />
+    <link rel="preload" href="/omafit/fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://akanniola.com/omafit" />
     <meta property="og:title" content="omaFIT: Sit Right. Move More. Live Better." />
@@ -26,7 +27,7 @@
   <body>
     <header class="top">
       <a class="brand" href="/omafit" aria-label="omaFIT home">
-        <img src="/omafit/logo.png" alt="" width="36" height="36" />
+        <img src="/omafit/logo.png" alt="" width="34" height="34" />
         <span>oma<b>FIT</b></span>
       </a>
       <a class="top-cta" href="#join">Join the waitlist</a>
@@ -34,124 +35,158 @@
 
     <main>
       <section class="hero">
-        <img class="hero-logo" src="/omafit/logo.png" alt="omaFIT logo: a figure in motion with a gold spine" width="160" height="160" />
-        <p class="eyebrow">Coming soon to iPhone and Android</p>
-        <h1>Sit right. Move more.<br />Live better.</h1>
-        <p class="lead">
-          omaFIT helps people who sit all day fix their posture, build muscle and keep a strong, healthy physique, with
-          a workout routine that fits around work. Free, open source, and your data stays on your phone.
-        </p>
-        <a class="button" href="#join">Join the waitlist</a>
+        <div class="hero-text">
+          <p class="tag">Coming soon to iPhone and Android</p>
+          <h1>Sit right. <em>Move more.</em> Live better.</h1>
+          <p class="lead">
+            omaFIT helps people who sit all day fix their posture, build muscle and keep a strong, healthy physique,
+            with a workout routine that fits around work. Free, open source, and your data stays on your phone.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#join">Join the waitlist</a>
+            <a class="link" href="#how">See how it works ↓</a>
+          </div>
+          <ul class="facts" aria-label="At a glance">
+            <li>Free</li>
+            <li>No account</li>
+            <li>Works with or without equipment</li>
+          </ul>
+        </div>
+        <div class="phones" aria-hidden="true">
+          <img class="phone p1" src="/omafit/img/welcome.png" alt="" width="360" height="748" />
+          <img class="phone p2" src="/omafit/img/today.png" alt="" width="360" height="723" />
+        </div>
       </section>
 
-      <section class="problem" aria-labelledby="why">
-        <h2 id="why">Built for desk days</h2>
-        <p>
-          Hours at a desk show up as a stiff neck, rounded shoulders and a sore lower back. Most fitness apps assume a
-          gym and lots of free time. omaFIT starts from where you are: a chair, a busy week and whatever equipment you
-          have at home, even none.
-        </p>
+      <section class="note" aria-labelledby="note-title">
+        <h2 id="note-title">Why I'm building omaFIT</h2>
+        <div class="note-body">
+          <p>
+            Hi, I'm Akeem. I'm a software engineer, so most of my day is spent sitting at a desk. Over time you feel
+            it: your neck pushes forward, your shoulders round, and your back gets stiff long before the weekend.
+          </p>
+          <p>
+            Most fitness apps assume you have a gym, a free evening and a subscription. I wanted something smaller and
+            more honest: a short posture routine I could actually do every day, strength sessions at home with whatever
+            I had, and a coach that adjusts the plan instead of shouting at me.
+          </p>
+          <p>
+            So I built it, and I'm its first user. It's free and open source because getting your posture back
+            shouldn't cost money. If you sit for a living too, I'd love for you to try it.
+          </p>
+          <p class="sign">Akeem Akanni-ola<span>Maker of omaFIT</span></p>
+        </div>
       </section>
 
       <section class="features" aria-labelledby="what">
-        <h2 id="what">What you get</h2>
-        <ul class="cards">
-          <li>
-            <h3>A daily posture routine</h3>
-            <p>About 10 minutes for your neck, upper back and hips. It also works as your warm-up.</p>
-          </li>
-          <li>
-            <h3>Home strength days</h3>
-            <p>Short sessions built around your equipment and level, from bodyweight only to dumbbells and a bench.</p>
-          </li>
-          <li>
+        <h2 id="what">What's inside</h2>
+        <div class="feature-grid">
+          <article class="feature big">
+            <span class="num">01</span>
+            <h3>A posture routine you'll actually do</h3>
+            <p>About 10 minutes a day for your neck, upper back and hips. It doubles as your warm-up on strength days.</p>
+          </article>
+          <article class="feature">
+            <span class="num">02</span>
+            <h3>Strength that builds real muscle</h3>
+            <p>Short sessions around your equipment and level, from bodyweight only to dumbbells and a bench.</p>
+          </article>
+          <article class="feature">
+            <span class="num">03</span>
             <h3>Walks that fit your week</h3>
-            <p>A gentle walking plan that builds up to easy runs, with a rest timer and alerts during workouts.</p>
-          </li>
-          <li>
-            <h3>An AI coach you control</h3>
+            <p>A gentle walking plan that builds up to easy runs, with a rest timer that tells you when to go again.</p>
+          </article>
+          <article class="feature">
+            <span class="num">04</span>
+            <h3>A coach you're in charge of</h3>
             <p>
               Bring your own AI (Gemini has a free tier). It tailors your plan, reviews your week and swaps exercises
               when something hurts. Nothing changes until you tap Apply.
             </p>
-          </li>
-          <li>
-            <h3>Careful by design</h3>
-            <p>
-              Log pain by body area and the plan eases off what hurts. Every exercise comes from a built-in library
-              with demos, and big weight jumps are blocked.
-            </p>
-          </li>
-          <li>
-            <h3>Private and free</h3>
-            <p>No account and no ads. Your workouts stay on your phone and only go to the AI you choose. Open source.</p>
-          </li>
-        </ul>
+          </article>
+          <article class="feature">
+            <span class="num">05</span>
+            <h3>Careful with your body</h3>
+            <p>Log pain by body area and the plan eases off what hurts. Big weight jumps are blocked.</p>
+          </article>
+          <article class="feature wide">
+            <span class="num">06</span>
+            <h3>Yours, and private</h3>
+            <p>No account, no ads, no tracking. Your workouts stay on your phone and only go to the AI you choose.</p>
+          </article>
+        </div>
       </section>
 
       <section class="gym" aria-labelledby="gym-title">
-        <h2 id="gym-title">Already have a gym membership?</h2>
-        <p>
-          Get a personal plan without paying for a personal trainer. Tell omaFIT what your gym has (machines, cables,
-          free weights) and your level, and your AI coach builds your sessions around it. It reviews your progress every
-          week and adjusts your plan as you get stronger, or when something hurts.
-        </p>
-        <p class="note">Train at home, at the gym, or both. Your plan follows the equipment you pick.</p>
+        <div>
+          <h2 id="gym-title">Already have a gym membership?</h2>
+          <p>
+            Get a personal plan without paying for a personal trainer. Tell omaFIT what your gym has (machines, cables,
+            free weights) and your level, and your AI coach builds your sessions around it. It reviews your progress
+            every week and adjusts your plan as you get stronger, or when something hurts.
+          </p>
+          <p class="gym-note">Train at home, at the gym, or both. Your plan follows the equipment you pick.</p>
+        </div>
+        <img class="phone small" src="/omafit/img/equipment.png" alt="omaFIT's equipment picker with Bodyweight, Skipping rope and Dumbbells selected" width="360" height="748" loading="lazy" />
       </section>
 
-      <section class="steps" aria-labelledby="how">
-        <h2 id="how">How it works</h2>
+      <section class="steps" id="how" aria-labelledby="how-title">
+        <h2 id="how-title">How it works</h2>
         <ol>
           <li><b>Set up in a minute.</b> Your level, your equipment and anything that hurts.</li>
           <li><b>Follow today's plan.</b> Posture routine, strength or a walk. Tick sets as you go.</li>
-          <li><b>Let your coach adjust.</b> Once a week it reviews how it went and suggests changes.</li>
+          <li><b>Let your coach adjust.</b> Once a week it looks at how it went and suggests changes.</li>
         </ol>
       </section>
 
       <section class="join" id="join" aria-labelledby="join-title">
-        <h2 id="join-title">Join the waitlist</h2>
-        <p>Be the first to know when omaFIT is ready for your phone.</p>
-
-        <form id="waitlist" novalidate>
-          <label for="email">Email</label>
-          <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required placeholder="you@example.com" />
-
-          <fieldset>
-            <legend>Your phone</legend>
-            <div class="choices">
-              <label class="choice"><input type="radio" name="platform" value="ios" required /> <span>iPhone</span></label>
-              <label class="choice"><input type="radio" name="platform" value="android" /> <span>Android</span></label>
-            </div>
-          </fieldset>
-
-          <!-- Hidden from people; bots fill it in -->
-          <div class="hp" aria-hidden="true">
-            <label for="website">Leave this empty</label>
-            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
-          </div>
-
-          <button class="button" type="submit">Join the waitlist</button>
-          <p class="form-error" role="alert" hidden></p>
-          <p class="fine">
-            We'll only email you about omaFIT's launch. We never share or sell your email. Want it removed? Contact us
-            through <a href="https://www.akanniola.com" rel="noopener">akanniola.com</a>.
-          </p>
-        </form>
-
-        <div class="thanks" hidden tabindex="-1">
-          <h3>You're on the list 🎉</h3>
-          <p>We'll email you when omaFIT is ready. Know someone who sits all day? Send them this.</p>
+        <div class="join-intro">
+          <h2 id="join-title">Join the waitlist</h2>
+          <p>Be the first to know when omaFIT is ready for your phone. One email at launch, that's it.</p>
         </div>
 
-        <div class="share" aria-labelledby="share-title">
-          <h3 id="share-title">Invite a friend</h3>
-          <div class="share-buttons">
-            <button class="button secondary" type="button" data-share="native" hidden>Share</button>
-            <button class="button secondary" type="button" data-share="copy">Copy link</button>
-            <a class="button secondary" data-share="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
-            <a class="button secondary" data-share="x" target="_blank" rel="noopener">X / Twitter</a>
+        <div class="join-box">
+          <form id="waitlist" novalidate>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required placeholder="you@example.com" />
+
+            <fieldset>
+              <legend>Your phone</legend>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="platform" value="ios" required /> <span>iPhone</span></label>
+                <label class="choice"><input type="radio" name="platform" value="android" /> <span>Android</span></label>
+              </div>
+            </fieldset>
+
+            <!-- Hidden from people; bots fill it in -->
+            <div class="hp" aria-hidden="true">
+              <label for="website">Leave this empty</label>
+              <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+            </div>
+
+            <button class="button" type="submit">Join the waitlist</button>
+            <p class="form-error" role="alert" hidden></p>
+            <p class="fine">
+              I'll only email you about omaFIT's launch. I never share or sell your email. Want it removed? Get in
+              touch through <a href="https://www.akanniola.com" rel="noopener">akanniola.com</a>.
+            </p>
+          </form>
+
+          <div class="thanks" hidden tabindex="-1">
+            <h3>You're on the list. Thank you! 🎉</h3>
+            <p>I'll email you when omaFIT is ready. Know someone who sits all day? Send them this page.</p>
           </div>
-          <p class="copied" role="status" aria-live="polite"></p>
+
+          <div class="share" aria-labelledby="share-title">
+            <h3 id="share-title">Know someone who sits all day?</h3>
+            <div class="share-buttons">
+              <button class="button secondary" type="button" data-share="native" hidden>Share</button>
+              <button class="button secondary" type="button" data-share="copy">Copy link</button>
+              <a class="button secondary" data-share="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+              <a class="button secondary" data-share="x" target="_blank" rel="noopener">X / Twitter</a>
+            </div>
+            <p class="copied" role="status" aria-live="polite"></p>
+          </div>
         </div>
       </section>
 
@@ -187,7 +222,8 @@
 
     <footer>
       <p>
-        omaFIT is made by <a href="https://www.akanniola.com" rel="noopener">Akeem Akanni-ola</a> · Free and open source
+        Made with care in between desk days by <a href="https://www.akanniola.com" rel="noopener">Akeem Akanni-ola</a>
+        · Free and open source
       </p>
     </footer>
   </body>

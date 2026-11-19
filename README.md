@@ -51,3 +51,7 @@ anyone who asks: `DELETE FROM waitlist WHERE email = 'their@email.com';`
 ## Local preview
 
 `npx vercel dev` (needs the Vercel CLI and the project's `DATABASE_URL`), then open `http://localhost:3000/omafit`.
+
+## Credits
+
+Headings use [Fraunces](https://github.com/undercasetype/Fraunces) (SIL Open Font License, `omafit/fonts/OFL.txt`), self-hosted so no font service sees visitors. App screenshots in `omafit/img/` are from a test install with no real personal data.
