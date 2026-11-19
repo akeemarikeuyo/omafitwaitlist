@@ -1,6 +1,6 @@
 # omaFIT waitlist
 
-The waitlist page for [omaFIT](https://github.com/akeemarikeuyo/omaFIT), served at **akanniola.com/omafit**.
+The waitlist page for omaFIT, served at **akanniola.com/omafit**.
 
 - `omafit/` — the page (plain HTML, CSS and JS; no framework, no trackers)
 - `api/join.js` — saves a sign-up (email + iPhone/Android) to a Neon Postgres database
