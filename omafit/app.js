@@ -1,7 +1,7 @@
 // Waitlist form and share buttons. No trackers, no third-party scripts.
 (() => {
   const SHARE_URL = 'https://akanniola.com/omafit';
-  const SHARE_TEXT = 'omaFIT: a free app to fix your posture and work out at home, made for people who sit all day. Join the waitlist:';
+  const SHARE_TEXT = 'omaFIT: a free app to fix your posture, build muscle and stay in shape, made for people who sit all day. Join the waitlist:';
 
   const form = document.getElementById('waitlist');
   const error = form.querySelector('.form-error');
