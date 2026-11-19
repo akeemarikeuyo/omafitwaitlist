@@ -1,0 +1,12 @@
+{
+  "name": "omafit-waitlist",
+  "private": true,
+  "description": "Waitlist page for omaFIT, served at akanniola.com/omafit",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.2.1"
+  }
+}

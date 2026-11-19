@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>omaFIT: posture and home workouts for people who sit all day</title>
+    <meta
+      name="description"
+      content="omaFIT is a free, open-source app that helps you fix your posture and build a home workout routine around your desk job. Join the waitlist."
+    />
+    <meta name="theme-color" content="#0F1115" />
+    <link rel="canonical" href="https://akanniola.com/omafit" />
+    <link rel="icon" type="image/png" href="/omafit/favicon.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://akanniola.com/omafit" />
+    <meta property="og:title" content="omaFIT: Sit Right. Move More. Live Better." />
+    <meta
+      property="og:description"
+      content="A free, open-source posture and home-workout app for people who sit all day. Join the waitlist."
+    />
+    <meta property="og:image" content="https://akanniola.com/omafit/logo.png" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="stylesheet" href="/omafit/styles.css" />
+    <script src="/omafit/app.js" defer></script>
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="/omafit" aria-label="omaFIT home">
+        <img src="/omafit/logo.png" alt="" width="36" height="36" />
+        <span>oma<b>FIT</b></span>
+      </a>
+      <a class="top-cta" href="#join">Join the waitlist</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img class="hero-logo" src="/omafit/logo.png" alt="omaFIT logo: a figure in motion with a gold spine" width="160" height="160" />
+        <p class="eyebrow">Coming soon to iPhone and Android</p>
+        <h1>Sit right. Move more.<br />Live better.</h1>
+        <p class="lead">
+          omaFIT helps people who sit all day get their posture back and stick to a workout routine that fits around
+          work. Free, open source, and your data stays on your phone.
+        </p>
+        <a class="button" href="#join">Join the waitlist</a>
+      </section>
+
+      <section class="problem" aria-labelledby="why">
+        <h2 id="why">Built for desk days</h2>
+        <p>
+          Hours at a desk show up as a stiff neck, rounded shoulders and a sore lower back. Most fitness apps assume a
+          gym and lots of free time. omaFIT starts from where you are: a chair, a busy week and whatever equipment you
+          have at home, even none.
+        </p>
+      </section>
+
+      <section class="features" aria-labelledby="what">
+        <h2 id="what">What you get</h2>
+        <ul class="cards">
+          <li>
+            <h3>A daily posture routine</h3>
+            <p>About 10 minutes for your neck, upper back and hips. It also works as your warm-up.</p>
+          </li>
+          <li>
+            <h3>Home strength days</h3>
+            <p>Short sessions built around your equipment and level, from bodyweight only to dumbbells and a bench.</p>
+          </li>
+          <li>
+            <h3>Walks that fit your week</h3>
+            <p>A gentle walking plan that builds up to easy runs, with a rest timer and alerts during workouts.</p>
+          </li>
+          <li>
+            <h3>An AI coach you control</h3>
+            <p>
+              Bring your own AI (Gemini has a free tier). It tailors your plan, reviews your week and swaps exercises
+              when something hurts. Nothing changes until you tap Apply.
+            </p>
+          </li>
+          <li>
+            <h3>Careful by design</h3>
+            <p>
+              Log pain by body area and the plan eases off what hurts. Every exercise comes from a built-in library
+              with demos, and big weight jumps are blocked.
+            </p>
+          </li>
+          <li>
+            <h3>Private and free</h3>
+            <p>No account and no ads. Your workouts stay on your phone and only go to the AI you choose. Open source.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="steps" aria-labelledby="how">
+        <h2 id="how">How it works</h2>
+        <ol>
+          <li><b>Set up in a minute.</b> Your level, your equipment and anything that hurts.</li>
+          <li><b>Follow today's plan.</b> Posture routine, strength or a walk. Tick sets as you go.</li>
+          <li><b>Let your coach adjust.</b> Once a week it reviews how it went and suggests changes.</li>
+        </ol>
+      </section>
+
+      <section class="join" id="join" aria-labelledby="join-title">
+        <h2 id="join-title">Join the waitlist</h2>
+        <p>Be the first to know when omaFIT is ready for your phone.</p>
+
+        <form id="waitlist" novalidate>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required placeholder="you@example.com" />
+
+          <fieldset>
+            <legend>Your phone</legend>
+            <div class="choices">
+              <label class="choice"><input type="radio" name="platform" value="ios" required /> <span>iPhone</span></label>
+              <label class="choice"><input type="radio" name="platform" value="android" /> <span>Android</span></label>
+            </div>
+          </fieldset>
+
+          <!-- Hidden from people; bots fill it in -->
+          <div class="hp" aria-hidden="true">
+            <label for="website">Leave this empty</label>
+            <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+          </div>
+
+          <button class="button" type="submit">Join the waitlist</button>
+          <p class="form-error" role="alert" hidden></p>
+          <p class="fine">
+            We'll only email you about omaFIT's launch. We never share or sell your email. Want it removed? Contact us
+            through <a href="https://www.akanniola.com" rel="noopener">akanniola.com</a>.
+          </p>
+        </form>
+
+        <div class="thanks" hidden tabindex="-1">
+          <h3>You're on the list 🎉</h3>
+          <p>We'll email you when omaFIT is ready. Know someone who sits all day? Send them this.</p>
+        </div>
+
+        <div class="share" aria-labelledby="share-title">
+          <h3 id="share-title">Invite a friend</h3>
+          <div class="share-buttons">
+            <button class="button secondary" type="button" data-share="native" hidden>Share</button>
+            <button class="button secondary" type="button" data-share="copy">Copy link</button>
+            <a class="button secondary" data-share="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+            <a class="button secondary" data-share="x" target="_blank" rel="noopener">X / Twitter</a>
+          </div>
+          <p class="copied" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section class="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">Questions</h2>
+        <details>
+          <summary>Is it really free?</summary>
+          <p>
+            Yes. omaFIT is free and open source. The AI coach uses your own AI account; Google's Gemini has a free
+            tier, and the workouts and logging work without any AI at all.
+          </p>
+        </details>
+        <details>
+          <summary>What happens to my data?</summary>
+          <p>
+            Your workouts, pain notes and settings stay on your phone. There's no omaFIT account or server. When you
+            use the AI coach, only what it needs goes to the AI provider you picked.
+          </p>
+        </details>
+        <details>
+          <summary>Does it replace a physio or doctor?</summary>
+          <p>
+            No. omaFIT gives training suggestions, not medical advice. It tells you to see a doctor or physio when
+            something sounds serious.
+          </p>
+        </details>
+        <details>
+          <summary>Can I see the code?</summary>
+          <p>Yes: <a href="https://github.com/akeemarikeuyo/omaFIT" rel="noopener">github.com/akeemarikeuyo/omaFIT</a>.</p>
+        </details>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        omaFIT is made by <a href="https://www.akanniola.com" rel="noopener">Akeem Akanni-ola</a> ·
+        <a href="https://github.com/akeemarikeuyo/omaFIT" rel="noopener">Open source on GitHub</a>
+      </p>
+    </footer>
+  </body>
+</html>
